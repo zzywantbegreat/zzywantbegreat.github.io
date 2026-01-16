@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   name: "朱占义"
-  avatar: "/images/profile.jpg"   # 头像我们下一步再换
+  avatar: "/profile.jpg"   # 头像我们下一步再换
   bio: "大连理工大学"             # 这里填学校或者你的身份 (如: Dalian University of Technology)
   location: "中国大连"            # 地址
   email: "zhanyizhu70@gmail.com" # 邮箱
