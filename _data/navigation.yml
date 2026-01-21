@@ -14,8 +14,8 @@ main:
   - title: "Talks"
     url: /talks/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Books"    # 菜单显示的文字
+    url: /books/      # 点击后跳转的链接地址
     
   - title: "Portfolio"
     url: /portfolio/
