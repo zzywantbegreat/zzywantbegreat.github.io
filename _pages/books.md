@@ -11,7 +11,7 @@ author_profile: true
 
 ## 正在阅读 (Currently Reading)
 * **Reinforcement Learning: An Introduction** (Richard S. Sutton)
-  * [📂 下载第二章笔记 PDF](/files/你的笔记文件名.pdf)
+  * [📂 下载第二章笔记 PDF](/files/sutton-chap2.pdf)
 
 ## 已读完 (Read)
 * **Book Name**: Author
