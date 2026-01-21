@@ -11,9 +11,6 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
   - title: "Books"    # 菜单显示的文字
     url: /books/      # 点击后跳转的链接地址
     
