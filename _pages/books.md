@@ -14,6 +14,9 @@ author_profile: true
 * **Reinforcement Learning: An Introduction** (Richard S. Sutton)
   * [📂 下载前五章笔记 PDF](/files/前五章.pdf)
 
+* **随机控制理论**
+  * [📂 下载讨论班笔记 5.30 PDF](/files/随机控制讨论班笔记5.30.pdf)
+
 ---
 
 ## 已读完 (Read)
