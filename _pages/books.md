@@ -35,6 +35,23 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
 
 <div class="reading-library">
   <p class="shelf-intro">阅读、思考，留下笔记。<br>这里收藏我的书籍与学习记录。</p>
+  <section class="shelf-section" aria-labelledby="study-notes">
+    <header class="shelf-heading">
+      <div><h2 id="study-notes">学习笔记</h2><p>STUDY NOTES</p></div>
+      <span class="shelf-count">01 份</span>
+    </header>
+    <div class="shelf-grid">
+      <article class="book-card">
+        <p class="book-topic">平均场博弈</p>
+        <h3>MFG 入门笔记</h3>
+        <p class="book-author">25 页 · 阅读与下载均需密码</p>
+        <div class="book-footer">
+          <a class="pdf-button" href="{{ '/mfg/?action=read' | relative_url }}" aria-label="输入密码阅读 MFG 入门笔记">阅读笔记</a>
+          <a class="pdf-button" href="{{ '/mfg/?action=download' | relative_url }}" aria-label="输入密码下载 MFG 入门笔记 PDF">下载 PDF</a>
+        </div>
+      </article>
+    </div>
+  </section>
   <section class="shelf-section" aria-labelledby="currently-reading">
     <header class="shelf-heading">
       <div><h2 id="currently-reading">正在阅读</h2><p>CURRENTLY READING</p></div>
