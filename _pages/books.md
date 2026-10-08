@@ -38,7 +38,7 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
   <section class="shelf-section" aria-labelledby="study-notes">
     <header class="shelf-heading">
       <div><h2 id="study-notes">学习笔记</h2><p>STUDY NOTES</p></div>
-      <span class="shelf-count">02 份</span>
+      <span class="shelf-count">01 份</span>
     </header>
     <div class="shelf-grid">
       <article class="book-card">
@@ -50,21 +50,12 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
           <a class="pdf-button" href="{{ '/mfg/?action=download' | relative_url }}" aria-label="输入密码下载 MFG 入门笔记 PDF">下载 PDF</a>
         </div>
       </article>
-      <article class="book-card" id="pde-notes">
-        <p class="book-topic">偏微分方程</p>
-        <h3>PDE 课堂笔记</h3>
-        <p class="book-author">26 页 · 持续整理中</p>
-        <div class="book-footer">
-          <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="阅读 PDE 课堂笔记 PDF">阅读笔记</a>
-          <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" download="PDE课堂笔记.pdf" aria-label="下载 PDE 课堂笔记 PDF">下载 PDF</a>
-        </div>
-      </article>
     </div>
   </section>
   <section class="shelf-section" aria-labelledby="currently-reading">
     <header class="shelf-heading">
       <div><h2 id="currently-reading">正在阅读</h2><p>CURRENTLY READING</p></div>
-      <span class="shelf-count">02 本</span>
+      <span class="shelf-count">03 本</span>
     </header>
     <div class="shelf-grid">
       <article class="book-card">
@@ -77,6 +68,15 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
         <p class="book-topic">随机控制</p>
         <h3>随机控制理论</h3>
         <div class="book-footer"><span class="book-note">讨论班笔记 · 5.30</span><a class="pdf-button" href="{{ '/files/随机控制讨论班笔记5.30.pdf' | relative_url }}" aria-label="阅读随机控制讨论班笔记 5.30 PDF">阅读 PDF <svg viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></a></div>
+      </article>
+      <article class="book-card" id="pde-notes">
+        <p class="book-topic">偏微分方程</p>
+        <h3>PDE 课堂笔记</h3>
+        <p class="book-author">26 页 · 持续整理中</p>
+        <div class="book-footer">
+          <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="阅读 PDE 课堂笔记 PDF">阅读笔记</a>
+          <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" download="PDE课堂笔记.pdf" aria-label="下载 PDE 课堂笔记 PDF">下载 PDF</a>
+        </div>
       </article>
     </div>
   </section>
