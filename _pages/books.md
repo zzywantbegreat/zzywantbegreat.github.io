@@ -38,7 +38,7 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
   <section class="shelf-section" aria-labelledby="study-notes">
     <header class="shelf-heading">
       <div><h2 id="study-notes">学习笔记</h2><p>STUDY NOTES</p></div>
-      <span class="shelf-count">01 份</span>
+      <span class="shelf-count">02 份</span>
     </header>
     <div class="shelf-grid">
       <article class="book-card">
@@ -48,6 +48,15 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
         <div class="book-footer">
           <a class="pdf-button" href="{{ '/mfg/?action=read' | relative_url }}" aria-label="输入密码阅读 MFG 入门笔记">阅读笔记</a>
           <a class="pdf-button" href="{{ '/mfg/?action=download' | relative_url }}" aria-label="输入密码下载 MFG 入门笔记 PDF">下载 PDF</a>
+        </div>
+      </article>
+      <article class="book-card" id="pde-notes">
+        <p class="book-topic">偏微分方程</p>
+        <h3>PDE 课堂笔记</h3>
+        <p class="book-author">26 页 · 持续整理中</p>
+        <div class="book-footer">
+          <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="阅读 PDE 课堂笔记 PDF">阅读笔记</a>
+          <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" download="PDE课堂笔记.pdf" aria-label="下载 PDE 课堂笔记 PDF">下载 PDF</a>
         </div>
       </article>
     </div>
