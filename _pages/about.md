@@ -10,3 +10,6 @@ redirect_from:
 ## 关于我
 
 你好，我是朱占义，现为大连理工大学数学科学学院博士生。
+
+{% include codex-activity.html %}
+
