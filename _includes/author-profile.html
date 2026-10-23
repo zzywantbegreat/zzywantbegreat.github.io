@@ -17,7 +17,7 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.pronouns %}<p class="author__pronouns">{{ author.pronouns }}</p>{% endif %}
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    {% if author.bio %}<p class="author__bio">{% if author.bio contains '大连理工大学' %}<img class="university-emblem" src="{{ '/images/dlut-emblem.png' | relative_url }}" alt="大连理工大学校徽" width="24" height="24">{% endif %}{{ author.bio }}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
