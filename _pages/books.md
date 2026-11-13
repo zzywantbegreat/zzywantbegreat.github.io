@@ -21,6 +21,7 @@ author_profile: true
 .reading-library .book-card h3 { margin: 0; padding: 0; border: 0; font-size: 21px; font-weight: 650; letter-spacing: -.025em; line-height: 1.4; overflow-wrap: anywhere; color: var(--shelf-ink); }
 .reading-library .book-author { margin: 8px 0 0; color: var(--shelf-muted); font-size: 13px; line-height: 1.6; }
 .reading-library .book-footer { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 27px; margin-top: auto; }
+.reading-library #pde-notes .book-footer { justify-content: flex-start; flex-wrap: wrap; }
 .reading-library .book-note { font-size: 12px; color: var(--shelf-muted); line-height: 1.6; }
 .reading-library a.pdf-button, .reading-library a.pdf-button:visited { display: inline-flex; align-items: center; justify-content: center; gap: 6px; flex: none; min-height: 44px; padding: 9px 14px; border-radius: 999px; background: var(--shelf-button); border: 1px solid var(--shelf-line); color: var(--shelf-blue); text-decoration: none; font-size: 12px; font-weight: 600; line-height: 1.4; transition: background .2s ease, color .2s ease; }
 .reading-library .pdf-button svg { width: 14px; height: 14px; flex: none; }
@@ -72,10 +73,11 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
       <article class="book-card" id="pde-notes">
         <p class="book-topic">偏微分方程</p>
         <h3>PDE 课堂笔记</h3>
-        <p class="book-author">26 页 · 持续整理中</p>
+        <p class="book-author">111 页 · 更新至 2026 年 11 月 11 日</p>
         <div class="book-footer">
           <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="阅读 PDE 课堂笔记 PDF">阅读笔记</a>
           <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" download="PDE课堂笔记.pdf" aria-label="下载 PDE 课堂笔记 PDF">下载 PDF</a>
+          <a class="pdf-button" href="{{ '/files/pde-notes.tex' | relative_url }}" download="PDE课堂笔记.tex" aria-label="下载 PDE 课堂笔记 LaTeX 源文件">下载 LaTeX</a>
         </div>
       </article>
     </div>
