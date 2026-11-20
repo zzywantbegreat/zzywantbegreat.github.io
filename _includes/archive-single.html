@@ -34,6 +34,10 @@
       {% endif %}
     </h2>
     
+    {% if post.collection == 'posts' and post.archive_note %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.archive_note | escape }}</p>
+    {% endif %}
+
     {% unless post.collection == 'posts' %}
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
