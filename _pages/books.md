@@ -56,7 +56,7 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
   <section class="shelf-section" aria-labelledby="currently-reading">
     <header class="shelf-heading">
       <div><h2 id="currently-reading">正在阅读</h2><p>CURRENTLY READING</p></div>
-      <span class="shelf-count">03 本</span>
+      <span class="shelf-count">04 本</span>
     </header>
     <div class="shelf-grid">
       <article class="book-card">
@@ -78,6 +78,15 @@ html[data-theme="dark"] .reading-library { --shelf-card: #303033; --shelf-ink: #
           <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="阅读 PDE 课堂笔记 PDF">阅读笔记</a>
           <a class="pdf-button" href="{{ '/files/pde-notes.pdf' | relative_url }}" download="PDE课堂笔记.pdf" aria-label="下载 PDE 课堂笔记 PDF">下载 PDF</a>
           <a class="pdf-button" href="{{ '/files/pde-notes.tex' | relative_url }}" download="PDE课堂笔记.tex" aria-label="下载 PDE 课堂笔记 LaTeX 源文件">下载 LaTeX</a>
+        </div>
+      </article>
+      <article class="book-card" id="optimization-notes">
+        <p class="book-topic">最优化</p>
+        <h3>最优化课堂笔记</h3>
+        <p class="book-author">zzy · 60 页</p>
+        <div class="book-footer">
+          <a class="pdf-button" href="{{ '/files/optimization-course-notes.pdf' | relative_url }}" target="_blank" rel="noopener" aria-label="阅读最优化课堂笔记 PDF">阅读笔记</a>
+          <a class="pdf-button" href="{{ '/files/optimization-course-notes.pdf' | relative_url }}" download="最优化课堂笔记.pdf" aria-label="下载最优化课堂笔记 PDF">下载 PDF</a>
         </div>
       </article>
     </div>
